@@ -1,7 +1,10 @@
 ---
 layout: layouts/post.njk
-title: My first post
-description: The first post on the blog
+title: Writing
+description: On writing
 date: 2020-08-01
+thumbnail: /media/img_6218.jpg
+tags:
+  - General
 ---
 Hello, here is the body of the post.
