@@ -29,5 +29,7 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
 }
