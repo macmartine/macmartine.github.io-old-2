@@ -1,13 +1,19 @@
-<ul>
-  {% for post in postslist %}
-    <li>
-      <strong>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </strong>
-      -
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-      -
-      <span>{{ post.data.description }}</span>
-    </li>
-  {% endfor %}
-</ul>
+
+<div class="h-56 grid grid-cols-3 gap-4 content-start">
+  <div></div>
+  <div>
+		<ul>
+			{% for post in postslist %}
+				<li>
+					<div class='text-xl text-gray-700'>
+						<a href="{{ post.url | url }}">{{ post.data.title }}</a>
+					</div>
+					<div class='text-sm text-gray-400'>
+						<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+  <div></div>
+</div>

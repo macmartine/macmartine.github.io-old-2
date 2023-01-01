@@ -7,14 +7,12 @@
     <!-- Needed only if you are using Netlify Identity feature -->
     <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
+
   <body>
-    {% include "../components/navigation.njk" %}
     <main class="p-12">
       {{ content | safe }}
     </main>
     <script src="/assets/main.js"></script>
-
-
   </body>
 
 </html>
