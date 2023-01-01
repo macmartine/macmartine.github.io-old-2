@@ -2,5 +2,11 @@
 layout: layouts/base.njk
 ---
 
-<time>{{ date | readableDate }}</time>
+<div class='back-btn'>
+	<a href='/'>< Back</a>
+</div>
+
+<div class='post-date'>
+	<time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+</div>
 <article>{{ content | safe }}</article>
