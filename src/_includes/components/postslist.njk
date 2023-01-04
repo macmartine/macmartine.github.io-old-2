@@ -1,10 +1,10 @@
 <ul>
 	{% for post in postslist %}
 		<li>
-			<div class='post-date inline'>
+			<div class='post-date'>
 				<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 			</div>
-			<h2 class='post-title inline'>
+			<h2 class='post-title'>
 				<a href="{{ post.url | url }}">{{ post.data.title }}</a>
 			</h2>
 		</li>
