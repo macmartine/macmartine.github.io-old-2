@@ -2,15 +2,30 @@
 body {
 	font-family: 'Helvetica';
 	color: #444;
-	padding: 0 48px 96px;
 	font-size: 22px;
 	line-height: 26px;
 }
 
-.wrapper {
-	width: 740px;
-	margin: auto;
-	padding-top: 24px;
+@media only screen and (max-width: 740px) {
+  body {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .wrapper {
+    width: 90%;
+    padding: 0;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .wrapper {
+    width: 740px;
+    padding: 0 48px 96px;
+    margin: auto;
+    padding-top: 24px;
+  }
 }
 
 .post-title {
