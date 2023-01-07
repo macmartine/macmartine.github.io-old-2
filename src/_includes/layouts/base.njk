@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>Mac Martine: {{ title }}</title>
      <link rel="stylesheet" type="text/css" href="/assets/main.css" />
     <!-- Netlify Identity Widget -->
     <!-- Needed only if you are using Netlify Identity feature -->
@@ -11,7 +11,24 @@
   <body>
 
 		<div class='wrapper'>
+
+      <div style="text-align: center; margin: 24px 0 48px 0;">
+        <img src='/img/profile-image.jpg' style="border-radius: 50%"/>
+        <h1 style="margin: 16px">Mac Martine</h1>
+        <div style="font-size: 16px; margin-bottom: 8px"><b>From:</b> Portland, Oregon ● <b>Living in:</b> Zagreb, Croatia</div>
+        <div style="font-size: 18px; margin-bottom: 16px">Building <a href='https://www.useaware.co' target='_blank'>Aware</a> in public ● 7-figure SaaS exit in 2021</div>
+        <div style="display: flex; justify-content: space-evenly; font-size: 18px">
+          <div><span>🐦 </span><a href='https://www.twitter.com/saasmakermac' target='_blank'>Twitter</div>
+          <div><span>💼 </span><a href='https://www.linkedin.com/in/macmartine' target=_blank'>LinkedIn</a></div>
+          <div><span>🔨 </span><a href='https://www.indiehackers.com/macmartine' target='_blank'>Indie Hackers</a></div>
+          <div><span>📈 </span><a href='https://pro.trends.vc/u/a973a1eb?' target='_blank'>Trends.vc</a></div>
+        </div>
+      </div>
+
+			<div style="margin: 14px 0; color: #bbb3b3">What follows is just me thinking through some thoughts:</div>
+
 			{{ content | safe }}
+
 			<script src="/assets/main.js"></script>
 		</div>
 

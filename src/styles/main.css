@@ -6,6 +6,10 @@ body {
 	line-height: 30px;
 }
 
+li span {
+  width: 15px;
+}
+
 @media only screen and (max-width: 740px) {
   body {
     font-size: 32px;
@@ -30,19 +34,15 @@ body {
 
 .post-title {
 	color: #444;
-	font-size: 24px;
+	font-size: 20px;
   margin-top: 0px;
 }
 
 .post-date {
 	color: #999;
 	margin-right: 12px;
-	font-size: 16px;
+	font-size: 14px;
 }
-
-/* .inline { */
-/* 	display: inline; */
-/* } */
 
 .back-btn {
 	margin: 12px 0 24px;

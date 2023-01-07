@@ -1,12 +1,10 @@
-<ul>
+<div>
 	{% for post in postslist %}
-		<li>
 			<div class='post-date'>
 				<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 			</div>
 			<h2 class='post-title'>
 				<a href="{{ post.url | url }}">{{ post.data.title }}</a>
 			</h2>
-		</li>
 	{% endfor %}
-</ul>
+</div>

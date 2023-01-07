@@ -1,3 +1,5 @@
+# This site is served by Netlify via Github
+ 
 # Minimal 11ty Starter
 
 ![Image showing the demo website](https://user-images.githubusercontent.com/3286735/100862193-26c1bd00-3493-11eb-8120-61a0d822588b.png)
@@ -5,55 +7,11 @@ A *very* minimal [eleventy](https://11ty.io/) starter using [Tailwind CSS](https
 
 It features a smart navigation component that sets active states automatically.
 
-For beginners and/or when you need a simple static site and don't want to duplicate your navigation header and set active states for the nth time.
-
-## Features
-🦴 As minimal as possible  
-⚡️ Active states in the navigation are automatically set based on the current url.  
-💨 Add a couple of lines to any page and it will appear in the navigation. (Check how to below)  
-🗓 A very simple blog structure because why not  
-🍪 Example for including json data on contact page  
-💜 Tailwind CSS
-
-
 ### [Live Demo](https://clever-newton-cbb08a.netlify.app)  
-
----
 
 ## Getting Started
 
-
-#### 1. Clone this repo
-
-```
-git clone git@github.com:tomreinert/minimal-11ty-tailwind-starter.git mysite
-```
-#### 2. Change into the working directory
-
-```
-cd mysite
-```
-
-#### 3. Install dependencies
-
-```
-npm install
-```
-
-#### 4. Work locally
-Watches for changes and serves locally on http://localhost:8080
-
-```
 npm run serve
-```
-
-#### 5. Create a production build
-
-```
-npm run build
-```
-
-
 
 ## How To: Navigation
 
