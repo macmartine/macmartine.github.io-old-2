@@ -32,14 +32,15 @@ li span {
   }
 }
 
-.post-title {
-	color: #444;
-	font-size: 20px;
+.post-title a {
+	color: #545454;
+	font-size: 16px;
   margin-top: 0px;
 }
 
 .post-date {
-	color: #999;
+	color: #ff572f;
+	text-transform: uppercase;
 	margin-right: 12px;
 	font-size: 14px;
 }
