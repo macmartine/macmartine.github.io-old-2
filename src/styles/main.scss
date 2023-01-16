@@ -55,12 +55,15 @@ li {
 
 .top-bar {
 	width: 100%;
+  text-align: center;
 	border-bottom: 1px solid #edebeb;
 
   .small-logo {
+    vertical-align: middle;
     border-radius: 50%;
     width: 50px;
-    margin: 8px 0 0 24px;
+    margin: 8px 8px 12px 24px;
+    font-family: 'Helvetica';
   }
 }
 
@@ -130,6 +133,7 @@ li {
 }
 
 .blog-container {
+  padding: 24px 0 200px;
   max-width: 800px;
   margin: auto;
 
@@ -305,4 +309,8 @@ blockquote footer {
   .home-container {
     max-width: 400px;
   }
+}
+
+#custom-substack-embed {
+  margin-top: 62px;
 }

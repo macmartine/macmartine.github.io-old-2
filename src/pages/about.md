@@ -4,7 +4,7 @@ layout: layouts/minimal.njk
 permalink: /about/
 ---
 
-<div style="text-align: center; margin: 24px 0 48px 0;">
+<div style="font-family: 'Helvetica'; text-align: center; margin: 24px 0 48px 0;">
   <img src='/img/profile-image.jpg' style="border-radius: 50%"/>
   <h1 style="margin: 16px">Mac Martine</h1>
   <div style="font-size: 16px; margin-bottom: 8px"><b>From:</b> Portland, Oregon ● <b>Living in:</b> Zagreb, Croatia</div>
