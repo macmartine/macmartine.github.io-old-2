@@ -77,7 +77,7 @@ li {
   .section {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
+    margin-top: 24px;
   }
 
   .left-column, .right-column {
@@ -134,7 +134,7 @@ li {
 }
 
 .blog-container {
-  padding: 24px 0 200px;
+  padding: 24px 24px 200px;
   max-width: 800px;
   margin: auto;
 
@@ -311,6 +311,6 @@ blockquote footer {
   }
 }
 
-#custom-substack-embed {
+.blog-container #custom-substack-embed {
   margin-top: 62px;
 }
