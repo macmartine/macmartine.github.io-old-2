@@ -1,5 +1,4 @@
 $font-main: 'minion-pro';
-// $color-primary: ;
 
 body {
 	font-family: $font-main;
@@ -11,29 +10,6 @@ body {
 li span {
   width: 15px;
 }
-
-/* @media only screen and (max-width: 730px) { */
-/*   body { */
-/*     font-size: 32px; */
-/*     line-height: 38px; */
-/*   } */
-
-/*   .wrapper { */
-/*     width: 90%; */
-/*     padding: 0; */
-/*     margin: auto; */
-/*   } */
-/* } */
-
-@media only screen and (min-width: 730px) {
-  .blog-container {
-    width: 730px;
-    padding: 0 48px 96px;
-    margin: auto;
-    padding-top: 24px;
-  }
-}
-
 
 h1, h2, h3 {
 	font-weight: bold;
@@ -57,10 +33,6 @@ h3 {
 	font-size: 24px;
 }
 
-li {
-	margin-bottom: 12px;
-}
-
 p {
 	margin: 16px 0;
 }
@@ -81,13 +53,27 @@ li {
   vertical-align: middle;
 }
 
+.top-bar {
+	width: 100%;
+	border-bottom: 1px solid #edebeb;
+
+  .small-logo {
+    border-radius: 50%;
+    width: 50px;
+    margin: 8px 0 0 24px;
+  }
+}
+
 .home-container {
 
-  padding: 128px 256px 64px;
-  margin: auto;
+  max-width: 1100px;
+  margin: 96px auto;
+  padding-bottom: 200px;
 
   .section {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
   }
 
   .left-column, .right-column {
@@ -100,15 +86,15 @@ li {
   }
 
   .left-column {
-    width: 50%;
-    padding: 24px 0;
+    flex: 2;
   }
 
   .right-column {
-    position: relative;
-    width: 50%;
+    flex: 1;
     text-align: center;
-    padding: 24px;
+    img {
+      width: 90%;
+    }
   }
 
   .signup-description {
@@ -122,6 +108,7 @@ li {
     margin: auto;
     font-size: 28px;
   }
+
   .header-image {
     width: 450px;
     border-radius: 5%;
@@ -140,17 +127,6 @@ li {
     font-family: 'Helvetica';
     font-size: 14px;
   }
-}
-
-.small-logo {
-	border-radius: 50%;
-	width: 50px;
-	margin: 8px 0 0 24px;
-}
-
-.top-bar {
-	width: 100%;
-	border-bottom: 1px solid #edebeb;
 }
 
 .blog-container {
@@ -200,17 +176,18 @@ li {
 }
 
 .article-list-column {
-	width: 33%;
+	width: 50%;
+  margin: auto;
 }
 
 /* Testimonials */
 
 .testimonial-card {
+  flex: 1;
   background-color: rgba(53, 141, 255, 0.06);
   padding: 1em;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	width: 33%;
 	font-size: 18px;
 	color: #666;
 }
@@ -235,4 +212,75 @@ blockquote footer {
   color: #666;
 }
 
+@media only screen and (max-width: 1200px) {
 
+  body {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .home-container {
+    max-width: 800px;
+    .left-column, .right-column {
+      flex: 1;
+      flex-basis: 100%;
+    }
+    .right-column {
+      display: none;
+    }
+    .testimonial-card {
+      margin-top: 32px;
+      flex-basis: 100%;
+    }
+    .testimonial-card + .testimonial-card { 
+      margin-left: 0; 
+    }
+    h2 {
+      margin: 24px 0 16px;
+    }
+
+    .article-list-column {
+      width: 1000%;
+    }
+
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .home-container {
+    max-width: 700px;
+    margin: 16px auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home-container {
+    width: 90%;
+    .subscribe-header, h1, h2, h3 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    .signup-description {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .blog-container {
+    .subscribe-header, h1, h2, h3 {
+      font-size: 26px;
+      line-height: 34px;
+    }
+    .subtitle {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    font-size: 20px;
+    line-height: 26px;
+    width: 80%;
+    padding: 24px 48px 96px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home-container {
+    max-width: 400px;
+  }
+}
