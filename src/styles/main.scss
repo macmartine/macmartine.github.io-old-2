@@ -178,6 +178,10 @@ li {
 .article-list-column {
 	width: 50%;
   margin: auto;
+  > div {
+    padding: 16px;
+    border-bottom: 1px solid #e6e6e6;
+  } 
 }
 
 /* Testimonials */
@@ -240,7 +244,20 @@ blockquote footer {
     }
 
     .article-list-column {
-      width: 1000%;
+      width: 100%;
+      > div {
+        padding: 16px 0;
+        border-bottom: 1px solid #e6e6e6;
+      } 
+      .post-date {
+        line-height: 18px;
+        display: block;
+        // padding-right: 0;
+        margin-right: 8px;
+      }
+      // .post-title {
+      //   margin-bottom: 16px;
+      // }
     }
 
   }
