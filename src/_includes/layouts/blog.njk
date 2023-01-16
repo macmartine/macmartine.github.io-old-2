@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	{% include "components/head.njk" %}
+
+  <body>
+
+		<div class="top-bar">
+			{% include "components/top-bar.njk" %}
+		</div>
+
+		<div class='blog-container'>
+
+			<h1>
+				{{ title }}
+			</h1>
+			<h3 class='subtitle'>
+				{{ subtitle }}
+			</h3>
+
+			<div class='blog-top-meta'>
+				<div class='categories'><a>{{ categories }}</a></div>
+					<div>
+					<img src="https://media.licdn.com/dms/image/C4E03AQEIlt_-XFExBA/profile-displayphoto-shrink_100_100/0/1517035086718?e=1678924800&v=beta&t=YQM06MHIjEkXcbCAv0GbKxEGbyqWtMInDNLWPhNF_u4" class='avatar'/>
+					<i class='written-by'>written by </i><span class='author-name'>Mac Martine</span>
+				</div>
+			</div>
+
+			{{ content | safe }}
+
+			<script src="/assets/main.js"></script>
+
+		</div>
+
+  </body>
+
+</html>

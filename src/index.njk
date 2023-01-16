@@ -6,5 +6,27 @@ eleventyNavigation:
   key: Blog
   order: 2
 ---
-{% set postslist = collections.posts.reverse() %}
+<div style="display: flex">
+
+<div class='article-list-column'>
+<h2>Newsletter</h2>
+{% set postslist = collections.newsletter.reverse().slice(0, 5) %}
 {% include "components/postslist.njk" %}
+<a href="/categories/newsletter">See all</a>
+</div>
+
+<div class='article-list-column'>
+<h2>Blog</h2>
+{% set postslist = collections.blog.reverse().slice(0, 5) %}
+{% include "components/postslist.njk" %}
+<a href="/categories/blog">See all</a>
+</div>
+
+<div class='article-list-column'>
+<h2>Build in public</h2>
+{% set postslist = collections.buildinpublic.reverse().slice(0, 5)  %}
+{% include "components/postslist.njk" %}
+<a href="/categories/buildinpublic">See all</a>
+</div>
+
+</div>

@@ -6,6 +6,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy("src/admin/config.yml");
 
+  // Watch CSS files for changes
+  eleventyConfig.setBrowserSyncConfig({
+		files: './_site/assets/**/*.css'
+	});
+
   const {
     DateTime
   } = require("luxon");

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+	{% include "components/head.njk" %}
+
+  <body>
+
+		<div class="top-bar">
+			{% include "components/top-bar.njk" %}
+		</div>
+
+		<div class='blog-container'>
+			{{ content | safe }}
+			<script src="/assets/main.js"></script>
+		</div>
+
+  </body>
+
+</html>

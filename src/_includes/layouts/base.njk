@@ -1,35 +1,67 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Mac Martine: {{ title }}</title>
-     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
-    <!-- Netlify Identity Widget -->
-    <!-- Needed only if you are using Netlify Identity feature -->
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  </head>
+	{% include "components/head.njk" %}
 
   <body>
 
-		<div class='wrapper'>
+		<div class="home-container">
 
-      <div style="text-align: center; margin: 24px 0 48px 0;">
-        <img src='/img/profile-image.jpg' style="border-radius: 50%"/>
-        <h1 style="margin: 16px">Mac Martine</h1>
-        <div style="font-size: 16px; margin-bottom: 8px"><b>From:</b> Portland, Oregon ● <b>Living in:</b> Zagreb, Croatia</div>
-        <div style="font-size: 18px; margin-bottom: 16px">Building <a href='https://www.useaware.co' target='_blank'>Aware</a> in public ● 7-figure SaaS exit in 2021</div>
-        <div style="display: flex; justify-content: space-evenly; font-size: 18px">
-          <div><span>🐦 </span><a href='https://www.twitter.com/saasmakermac' target='_blank'>Twitter</div>
-          <div><span>💼 </span><a href='https://www.linkedin.com/in/macmartine' target=_blank'>LinkedIn</a></div>
-          <div><span>🔨 </span><a href='https://www.indiehackers.com/macmartine' target='_blank'>Indie Hackers</a></div>
-          <div><span>📈 </span><a href='https://pro.trends.vc/u/a973a1eb?' target='_blank'>Trends.vc</a></div>
-          <div><span>🚀 </span><a href='https://martinesabroad.tumblr.com/' target='_blank'>Family 'Slomad' Blog</a></div>
-        </div>
+			<div class='section'>
 
-      </div>
+				<div class="left-column subscribe-header">
+					<label for="email">Get The Curious Innovator sent directly to your inbox</label>
+					<div class='signup-description'>
+						Helping you make better decisions and become clearer on priorities through explorations on philosophy, innovation and science.
+					</div>
+					<div style='margin-top: 24px; font-size: 18px;'>
+						{% include "components/subscribe-box.njk" %}
+					</div>
+					<div style='margin-top: 24px'>
+						<img src="https://media.licdn.com/dms/image/C4E03AQEIlt_-XFExBA/profile-displayphoto-shrink_100_100/0/1517035086718?e=1678924800&v=beta&t=YQM06MHIjEkXcbCAv0GbKxEGbyqWtMInDNLWPhNF_u4" class='avatar'/>
+						<span style="font-size: 18px">
+							<i class='written-by'>Written by </i><span class='author-name'>Mac Martine</span> | 
+							<a href='/about'>About me</a>
+						</span>
+					</div>
+				</div>
 
-			{{ content | safe }}
+				<div class="right-column">
+					<img src='/img/newsletter-image.png' class="header-image"/>
+				</div>
+
+			</div>
+
+			<div class='section'>
+
+				<div class="testimonial-card">
+					<blockquote>
+						<p>"This is an amazing product! It has completely changed my life for the better."</p>
+						<footer>- Johanna Wright</footer>
+					</blockquote>
+				</div>
+
+				<div class="testimonial-card">
+					<blockquote>
+						<p>"I have been a subscriber of The Curious Innovator for the past few months and it has completely changed the way I think.</p>
+						<footer>- Ryan Waggoner</footer>
+					</blockquote>
+				</div>
+
+				<div class="testimonial-card">
+					<blockquote>
+						<p>"This is an absolute game-changer!"</p>
+						<footer>- Alex Boyd</footer>
+					</blockquote>
+				</div>
+
+			</div>
+
+			<div class='section'>
+				{{ content | safe }}
+			</div>
 
 			<script src="/assets/main.js"></script>
+
 		</div>
 
   </body>

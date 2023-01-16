@@ -1,12 +1,7 @@
 ---
-layout: layouts/base.njk
+layout: layouts/blog.njk
 ---
 
-<div class='back-btn'>
-	<a href='/'>< Back</a>
-</div>
-
-<div class='post-date'>
-	<time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-</div>
 <article>{{ content | safe }}</article>
+
+{% include "components/subscribe-box.njk" %}

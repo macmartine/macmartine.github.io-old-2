@@ -1,12 +1,10 @@
-<div>
-	{% for post in postslist %}
-    <div style="padding: 8px; border-bottom: 1px solid #e6e6e6">
-      <span class='post-date'>
-        <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-      </span>
-      <span class='post-title'>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </span>
-    </div>
-	{% endfor %}
-</div>
+{% for post in postslist %}
+  <div style="padding: 16px; border-bottom: 1px solid #e6e6e6">
+    <span class='post-date'>
+      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </span>
+    <span class='post-title'>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </span>
+  </div>
+{% endfor %}
