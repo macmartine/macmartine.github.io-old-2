@@ -48,7 +48,7 @@ li {
 }
 
 .avatar {
-  width: 90px;
+  width: 50px;
   border-radius: 50%;
   vertical-align: middle;
 }
@@ -259,12 +259,8 @@ blockquote footer {
       .post-date {
         line-height: 18px;
         display: block;
-        // padding-right: 0;
         margin-right: 8px;
       }
-      // .post-title {
-      //   margin-bottom: 16px;
-      // }
     }
 
   }
@@ -273,9 +269,6 @@ blockquote footer {
   .home-container {
     max-width: 700px;
     margin: 16px auto;
-  }
-  .avatar {
-    width: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
