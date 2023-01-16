@@ -226,8 +226,8 @@ blockquote footer {
 @media only screen and (max-width: 1200px) {
 
   body {
-    font-size: 32px;
-    line-height: 38px;
+    // font-size: 32px;
+    // line-height: 38px;
   }
 
   .home-container {
@@ -290,7 +290,18 @@ blockquote footer {
       line-height: 28px;
     }
   }
+  .top-bar {
+    font-size: 18px;
+    .small-logo {
+      width: 40px;
+    }
+  }
   .blog-container {
+    font-size: 20px;
+    line-height: 26px;
+    width: 85%;
+    padding: 12px 12px 96px;
+    margin: auto;
     .subscribe-header, h1, h2, h3 {
       font-size: 26px;
       line-height: 34px;
@@ -299,11 +310,6 @@ blockquote footer {
       font-size: 24px;
       line-height: 30px;
     }
-    font-size: 20px;
-    line-height: 26px;
-    width: 80%;
-    padding: 12px 24px 96px;
-    margin: auto;
   }
 }
 @media only screen and (max-width: 480px) {
