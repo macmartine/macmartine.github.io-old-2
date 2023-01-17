@@ -1,6 +1,7 @@
 ---
 title: About Mac Martine
 layout: layouts/minimal.njk
+tags: 
 permalink: /about/
 ---
 
