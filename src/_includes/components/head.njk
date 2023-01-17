@@ -3,6 +3,32 @@
 	<meta name="description" content="{{ description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="{{ title }}">
+  <meta itemprop="description" content="{{ subtitle }}">
+  <meta itemprop="image" content="{{ image }}">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="{{ image }}">
+  <meta name="twitter:site" content="@saasmakermac">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ subtitle }}">
+  <meta name="twitter:creator" content="@saasmakermac">
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="{{ image }}">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://macmartine.com/" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:description" content="{{ subtitle }}" />
+  <meta property="og:site_name" content="The Curious Innovator" />
+  <meta property="article:published_time" content="{{ date }}" />
+  <meta property="article:modified_time" content="{{ date }}" />
+  <meta property="article:section" content="{{ tags | join(', ') }}" />
+  <meta property="article:tag" content="{{ tags | join(', ') }}" />
+
 	<link rel="stylesheet" type="text/css" href="/assets/main.css" />
 
 	<!-- Google tag (gtag.js) -->
