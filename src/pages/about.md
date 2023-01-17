@@ -33,6 +33,5 @@ And that's what this newsletter will be about.
 
 Thanks for joining me on this journey, and please introduce yourself by replying to a newsletter.
 
-{% include "components/subscribe-box.njk" %}
 
 
