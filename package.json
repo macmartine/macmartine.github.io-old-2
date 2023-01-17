@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "env NODE_ENV=production npx eleventy --pathprefix 'macmartine.github.io'"
+    "build": "npm-run-all build:*"
   },
   "keywords": [],
   "author": "",
@@ -32,4 +32,3 @@
     "js-yaml": "^4.1.0"
   }
 }
-
