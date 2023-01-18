@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npx eleventy --pathprefix 'macmartine.com'"
+    "build": "npx eleventy --pathprefix 'macmartine.github.io'"
   },
   "keywords": [],
   "author": "",
