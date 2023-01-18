@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:* --pathprefix '/'"
+    "build": "npm-run-all build:* --pathprefix ''"
   },
   "keywords": [],
   "author": "",
