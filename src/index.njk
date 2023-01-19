@@ -14,8 +14,12 @@ eleventyNavigation:
 <div style="display: flex; width: 100%">
 
 <div class='article-list-column'>
-<h2>Previous posts</h2>
+<h2>Recent newsletters</h2>
 {% set postslist = collections.newsletter.slice(0, 5) %}
+{% include "components/postslist.njk" %}
+
+<h2>Articles</h2>
+{% set postslist = collections.blog.slice(0, 5) %}
 {% include "components/postslist.njk" %}
 </div>
 
