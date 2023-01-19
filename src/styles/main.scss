@@ -311,12 +311,23 @@ blockquote footer {
   }
 }
 
-.blog-container #custom-substack-embed {
-  margin-top: 62px;
-}
-
 .post {
   img {
     width: 100%;
   }
+}
+
+.subscribe {
+  text-align: center;
+  padding: 24px;
+  background-color: #ffd8b0;
+  margin-top: 62px;
+}
+
+#custom-substack-embed {
+  margin-top: 32px;
+}
+
+#custom-substack-embed form {
+  margin: auto !important;
 }
