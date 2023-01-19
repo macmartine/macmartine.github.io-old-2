@@ -1,4 +1,4 @@
-{% for post in postslist %}
+{% for post in postslist | reverse %}
   <div>
     <span class='post-date'>
       <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>

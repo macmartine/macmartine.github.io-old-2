@@ -24,7 +24,7 @@ eleventyNavigation:
 
 <div class='article-list-column'>
 <h2>Previous posts</h2>
-{% set postslist = collections.newsletter.reverse().slice(0, 5) %}
+{% set postslist = collections.newsletter.slice(0, 5) %}
 {% include "components/postslist.njk" %}
 </div>
 
