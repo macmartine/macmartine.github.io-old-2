@@ -290,13 +290,12 @@ blockquote footer {
   background-color: #ffd8b0;
   margin-top: 62px;
 }
+.subscribe #custom-substack-embed form {
+  margin: auto !important;
+}
 
 #custom-substack-embed {
   margin-top: 32px;
-}
-
-#custom-substack-embed form {
-  margin: auto !important;
 }
 
 /*# sourceMappingURL=main.css.map */
