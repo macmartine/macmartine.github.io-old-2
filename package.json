@@ -8,6 +8,7 @@
     "build:sass": "sass src/styles:_site/assets",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
+    "build:add-domain": "echo \"www.macmartine.com\" > _site/CNAME",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
   },
