@@ -8,4 +8,12 @@ tags:
   - Technology
   - Innovation
 ---
-{% include "../index.njk" %}
+<div style="display: flex; width: 100%">
+
+<div class='article-list-column'>
+<h2>Previous posts</h2>
+{% set postslist = collections.newsletter.slice(0, 5) %}
+{% include "components/postslist.njk" %}
+</div>
+
+</div>

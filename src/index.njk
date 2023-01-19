@@ -13,28 +13,10 @@ eleventyNavigation:
 ---
 <div style="display: flex; width: 100%">
 
-<!--
-<div class='article-list-column'>
-<h2>Blog</h2>
-{% set postslist = collections.blog.reverse().slice(0, 5) %}
-{% include "components/postslist.njk" %}
-<a href="/categories/blog">See all</a>
-</div>
--->
-
 <div class='article-list-column'>
 <h2>Previous posts</h2>
 {% set postslist = collections.newsletter.slice(0, 5) %}
 {% include "components/postslist.njk" %}
 </div>
-
-<!--
-<div class='article-list-column'>
-<h2>Build in public</h2>
-{% set postslist = collections.buildinpublic.reverse().slice(0, 5)  %}
-{% include "components/postslist.njk" %}
-<a href="/categories/buildinpublic">See all</a>
-</div>
--->
 
 </div>
