@@ -2,6 +2,8 @@
 layout: layouts/blog.njk
 ---
 
-<article>{{ content | safe }}</article>
+<div class='post'>
+  <article>{{ content | safe }}</article>
+</div>
 
 {% include "components/subscribe-box.njk" %}
