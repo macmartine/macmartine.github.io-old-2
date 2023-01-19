@@ -284,4 +284,8 @@ blockquote footer {
   margin-top: 62px;
 }
 
+.post img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
