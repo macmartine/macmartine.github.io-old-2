@@ -919,6 +919,10 @@ ul li {
     align-items: center;
   }
 
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
   .lg\:border-none {
     border-style: none;
   }
