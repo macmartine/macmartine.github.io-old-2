@@ -5,16 +5,32 @@ image: 'https://macmartine.com/img/newsletter-image.png'
 layout: layouts/base.njk
 permalink: /newsletter/
 tags:
-  - Technology
-  - Innovation
 ---
 
-<div style="display: flex; width: 100%">
+<div>
 
-<div class='article-list-column'>
-<h2>Previous posts</h2>
-{% set postslist = collections.newsletter.slice(0, 5) %}
-{% include "components/postslist.njk" %}
+  <h3 class="ml-2 mt-2 text-xl font-medium leading-6 text-gray-900">
+    Get The Curious Innovator sent directly to your inbox
+  </h3>
+
+  <p class="my-8">
+    For those seeking to understand and improve the human experience through personal growth, financial independence, and societal impact.
+  </p>
+
+  <div class="mb-12">
+    {% include "components/subscribe.njk" %}
+		<p class="pl-2">
+			<i><a href="https://thecuriousinnovator.substack.com/">Or read the archives</a></i>
+		</p>
+  </div>
+
+  {% set quote = "Mac's content is always delivered with a rare combination of curiosity, insight and spirit!" %}
+  {% set author = "Ryan Waggoner - Founder, <a href='https://salsabliss.com' target='_blank'>Salsa Bliss</a>" %}
+  {% include "components/testimonial.njk" %}
+
+  {% set quote = "Woot! Just subscribed! What an awesome newsletter, holy crap!" %}
+  {% set author = "<a href='https://johannawright.com/' target='_blank'>Johanna Wright</a> - Illustrator and author" %}
+  {% include "components/testimonial.njk" %}
+
 </div>
 
-</div>

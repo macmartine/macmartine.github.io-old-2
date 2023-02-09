@@ -1,4 +1,0 @@
-{
-  "tags": "newsletter",
-  "permalink": "/newsletters/{{ title | slugify  }}/"
-}

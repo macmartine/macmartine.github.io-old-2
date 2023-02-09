@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+	@apply py-2;
+}
+
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+}
+
+ul li {
+  list-style-type: "→";
+	@apply ml-4;
+}

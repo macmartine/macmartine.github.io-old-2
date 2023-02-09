@@ -1,10 +1,17 @@
-{% for post in postslist | reverse %}
-  <div>
-    <span class='post-date'>
-      <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    </span>
-    <span class='post-title'>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </span>
-  </div>
-{% endfor %}
+<div class="divide-y divide-gray-200">
+
+  {% for post in postslist | reverse %}
+    <div class="py-4">
+      <div class="flex space-x-3">
+        <div class="flex-1 space-y-1">
+          <div class="flex items-center justify-between">
+            <h3 class="font-medium">
+              <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

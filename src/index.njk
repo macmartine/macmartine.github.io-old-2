@@ -5,22 +5,18 @@ image: 'https://macmartine.com/img/newsletter-image.png'
 layout: layouts/base.njk
 permalink: /
 tags:
-  - Technology
-  - Innovation
-eleventyNavigation:
-  key: Blog
-  order: 2
 ---
-<div style="display: flex; width: 100%">
 
-<div class='article-list-column'>
-<h2>Recent newsletters</h2>
-{% set postslist = collections.newsletter.slice(0, 5) %}
-{% include "components/postslist.njk" %}
+<div>
 
-<h2>Articles</h2>
-{% set postslist = collections.blog.slice(0, 5) %}
-{% include "components/postslist.njk" %}
+	<div class="pb-5">
+		<div class="-ml-2 -mt-2 flex flex-wrap items-baseline">
+			<h3 class="ml-2 mt-2 text-xl font-medium leading-6 text-gray-500">Reflections</h3>
+		</div>
+	</div>
+
+	{% set postslist = collections.blog.slice(0, 5) %}
+	{% include "components/postslist.njk" %}
+
 </div>
 
-</div>

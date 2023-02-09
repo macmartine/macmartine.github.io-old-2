@@ -4,61 +4,11 @@
 
   <body>
 
-		<div class="home-container">
+    <div class="max-w-xs sm:max-w-lg lg:max-w-2xl m-auto">
 
-			<div class='section'>
+      {% include "components/navigation.njk" %}
 
-				<div class="left-column subscribe-header">
-					<label for="email">Get The Curious Innovator sent directly to your inbox</label>
-					<div class='signup-description'>
-            For those seeking to understand and improve the human experience through personal growth, financial independence, and societal impact.
-					</div>
-					<div style='margin-top: 12px; font-size: 18px;'>
-						{% include "components/subscribe.njk" %}
-					</div>
-					<div style='margin-top: 24px'>
-						<img src="https://media.licdn.com/dms/image/C4E03AQEIlt_-XFExBA/profile-displayphoto-shrink_100_100/0/1517035086718?e=1678924800&v=beta&t=YQM06MHIjEkXcbCAv0GbKxEGbyqWtMInDNLWPhNF_u4" class='avatar'/>
-						<span style="font-size: 18px">
-							<i class='written-by'>Written by </i><span class='author-name'>Mac Martine</span> | 
-							<a href='/about'>About me</a>
-						</span>
-					</div>
-				</div>
-
-				<div class="right-column">
-					<img src='/img/newsletter-image.png' class="header-image"/>
-				</div>
-
-			</div>
-
-			<div class='section'>
-
-				<div class="testimonial-card">
-					<blockquote>
-						<p>"Mac's content is always delivered with a rare combination of curiosity, insight and spirit!"</p>
-            <footer style="font-family: 'Helvetica'">Ryan Waggoner - Founder, <a href='https://salsabliss.com' target='_blank'>Salsa Bliss</a></footer>
-					</blockquote>
-				</div>
-
-				<div class="testimonial-card" style="text-align: center">
-					<blockquote>
-						<p>"Woot! Just subscribed! What an awesome newsletter, holy crap!"</p>
-					</blockquote>
-          <footer style="font-family: 'Helvetica'"><a href='https://johannawright.com/' target='_blank'>Johanna Wright</a> - Illustrator and author</footer>
-				</div>
-
-          <!--
-				<div class="testimonial-card no-bg">
-					<blockquote>
-						<p>"This is an absolute game-changer!"</p>
-						<footer>- Alex Boyd</footer>
-					</blockquote>
-				</div>
-          -->
-
-			</div>
-
-			<div class='section'>
+			<div class="mt-8">
 				{{ content | safe }}
 			</div>
 
