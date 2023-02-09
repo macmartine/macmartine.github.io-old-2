@@ -7,16 +7,6 @@ permalink: /
 tags:
 ---
 
-<div>
-
-	<div class="pb-5">
-		<div class="-ml-2 -mt-2 flex flex-wrap items-baseline">
-			<h3 class="ml-2 mt-2 text-xl font-medium leading-6 text-gray-500">Reflections</h3>
-		</div>
-	</div>
-
-	{% set postslist = collections.blog.slice(0, 5) %}
-	{% include "components/postslist.njk" %}
-
-</div>
+{% set postslist = collections.blog.slice(0, 5) %}
+{% include "components/postslist.njk" %}
 
