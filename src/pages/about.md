@@ -13,7 +13,7 @@ permalink: /about/
 	</div>
 </div>
 
-<div class="my-8 flex justify-between">
+<div class="my-8 lg:flex lg:justify-between">
 	<div><span>🐦 </span><a href='https://www.twitter.com/saasmakermac' target='_blank'>Twitter</div>
 	<div><span>💼 </span><a href='https://www.linkedin.com/in/macmartine' target=_blank'>LinkedIn</a></div>
 	<div><span>🔨 </span><a href='https://www.indiehackers.com/macmartine' target='_blank'>Indie Hackers</a></div>
