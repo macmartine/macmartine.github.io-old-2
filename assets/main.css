@@ -856,6 +856,11 @@ body {
   line-height: 1.75rem;
 }
 
+a {
+  --tw-text-opacity: 1;
+  color: rgb(129 140 248 / var(--tw-text-opacity));
+}
+
 p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -882,6 +887,16 @@ h4 {
 ul li {
   list-style-type: "→";
   margin-left: 1rem;
+}
+
+blockquote {
+  border-left: 1px solid red;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-style: italic;
 }
 
 @media (min-width: 640px) {
