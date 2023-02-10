@@ -30,3 +30,11 @@ ul li {
   list-style-type: "→";
 	@apply ml-4;
 }
+
+blockquote {
+  border-left: 1px solid red;
+  @apply my-4;
+  @apply pl-4;
+  @apply text-xl;
+  @apply italic;
+}
