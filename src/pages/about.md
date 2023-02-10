@@ -31,9 +31,7 @@ Help me on my endless path to living a simple, yet deeply fulfilling life withou
 
 Satisfy my curiosity about the unfathomable complexity, mysteriousness, and beauty of this universe we find ourselves in.
 
-And that's what this newsletter will be about.
+And that's what The Curious Innovator newsletter, and the writings on this site, are about.
 
 Thanks for joining me on this journey, and please introduce yourself by replying to a newsletter.
-
-
 
