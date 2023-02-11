@@ -5,11 +5,14 @@ tags:
 permalink: /about/
 ---
 
+# Mac Martine
+
 <div class="inline-block w-full">
-	<img src='/img/profile-image.jpg' class="float-left rounded-lg mr-8" />
 	<div class="mb-4">
-		<div class="my-4"><b>From:</b> Portland, Oregon ● <b>Living in:</b> Zagreb, Croatia</div>
-		<div class="mb-4 w-full">Building <a href='https://www.useaware.co' target='_blank'>Aware</a> in public ● 7-figure SaaS exit in 2021</div>
+  <img src='/img/profile-image.jpg' class="float-left rounded-lg mr-8 w-24" />
+		<div class="my-4"><b>From:</b> Portland, Oregon <br /><b>Currently nomading in:</b> Zagreb, Croatia</div>
+    <br />
+		<div class="mb-4">Building <a href='https://www.useaware.co' target='_blank'>Aware</a> ● 7-figure SaaS exit in 2021</div>
 	</div>
 </div>
 
@@ -18,7 +21,6 @@ permalink: /about/
 	<div><span>💼 </span><a href='https://www.linkedin.com/in/macmartine' target=_blank'>LinkedIn</a></div>
 	<div><span>🔨 </span><a href='https://www.indiehackers.com/macmartine' target='_blank'>Indie Hackers</a></div>
 	<div><span>📈 </span><a href='https://pro.trends.vc/u/a973a1eb?' target='_blank'>Trends.vc</a></div>
-	<div><span>🚀 </span><a href='https://martinesabroad.tumblr.com/' target='_blank'>Family 'Slomad' Blog</a></div>
 </div>
 
 As a software developer and entrepreneur, I’ve spent the last 18 years constantly experimenting with ideas, trying to crack the code to making a living building products. More of them have failed than I care to admit, while one is worthy of calling a success. I seem to have arrived, at least for now. Probability at work.
