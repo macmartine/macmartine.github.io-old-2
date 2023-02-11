@@ -3,21 +3,41 @@
 @tailwind utilities;
 
 body {
+  background-color: #F6F5F1;
 	@apply text-gray-600;
-	@apply text-lg;
+	@apply text-2xl;
+	@apply leading-10;
 }
 
 a {
-  @apply text-indigo-400;
+  color: #4A4A46;
+  /* @apply text-indigo-400; */
+}
+a:hover {
+  @apply text-red-800;
 }
 
 p {
-	@apply py-2;
+	@apply py-4;
+}
+
+h1 {
+	font-size: 36px;
+	@apply py-8;
+  @apply border-b;
+  @apply border-gray-300;
+	@apply my-8;
+	@apply leading-10;
+	@apply font-semibold;
+  @apply tracking-wider;
 }
 
 h2 {
-	font-size: 26px;
-	@apply my-4;
+	font-size: 28px;
+	@apply font-semibold;
+  @apply tracking-wide;
+	@apply my-8;
+	@apply leading-10;
 }
 
 h3 {
