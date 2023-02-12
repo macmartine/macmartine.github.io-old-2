@@ -18,3 +18,19 @@ I read [Tiago Forte's](https://maggieappleton.com/garden-history) [Building a Se
 I've started a digital garden and considering how I'll incorporate it into [macmartine.com](https://www.macmartine.com), and [The Curious Innovator](/newsletter) newsletter. The newsletter may simply become my best/favorite Zettlekasten's from the previous week.
 
 
+## January 2023
+
+I joined the [Small Bets community](https://dvassallo.gumroad.com/l/small-bets), and went through the course. I really enjoyed it, and loved the [Nassim Taleb](https://www.fooledbyrandomness.com/) references, as he's one of my favorite authors.
+
+Also started the [Farnam Street](https://fs.blog) [Decisions by Design](https://fscourses.com/p/decision-by-design-sign-up-now) course which is 12-weeks long. It's also been great.
+
+We've been working on getting ready to apply for the Portugal Digital Nomad Visa. It's been more difficult than it was to get the Croatia one, partly because we're doing it from Croatia, and not the U.S. It makes things much harder. It's the simple things you wouldn't think about, like trying to send a check or money order the FBI, or sending a pre-paid return envelope. It's no-one's fault so much as incompatible systems. Europe doesn't have a notion of personal checks or money orders without having the destination account's routing number and account number on it. We don't have personal checks with us, and the FBI doesn't give out their bank account information for us to get a EU-style check for them. It's that kind of stuff times twenty. 
+
+Not to mention Portugal required opening a bank account before applying, which can only be done in person in Portugal. And they require a signed 12-month apartment lease prior to applying, which isn't easy to get from afar, sight-unseen, 8 months in advance.
+
+
+
+
+
+
+
