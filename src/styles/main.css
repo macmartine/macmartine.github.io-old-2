@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-menu-items {
+  @apply hover:text-red-900;
+  @apply py-2;
+  @apply hover:border-b;
+  @apply hover:border-sky-500;
+}
+
 body {
   background-color: #F6F5F1;
 	@apply text-gray-600;
@@ -10,15 +17,20 @@ body {
 }
 
 a {
-  color: #4A4A46;
-  /* @apply text-indigo-400; */
+  @apply text-red-800;
+  @apply py-1;
+  @apply border-sky-200;
+  @apply hover:text-red-900;
+  @apply hover:border-b;
+  @apply hover:border-sky-500;
 }
+
 a:hover {
   @apply text-red-800;
 }
 
 p {
-	@apply py-4;
+  @apply py-4;
 }
 
 h1 {
