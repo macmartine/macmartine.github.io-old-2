@@ -1018,9 +1018,10 @@ h2 {
 }
 
 h3 {
-  font-size: 22px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h4 {
