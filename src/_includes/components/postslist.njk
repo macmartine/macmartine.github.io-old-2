@@ -1,17 +1,9 @@
-<div class="divide-y divide-gray-200">
+<div>
 
   {% for post in postslist | reverse %}
-    <div class="py-4">
-      <div class="flex space-x-3">
-        <div class="flex-1 space-y-1">
-          <div class="flex items-center justify-between">
-            <h3 class="font-medium">
-              <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </h3>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h3 class="font-medium">
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </h3>
   {% endfor %}
 
 </div>

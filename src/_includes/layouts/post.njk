@@ -1,10 +1,21 @@
----
-layout: layouts/blog.njk
----
+<!doctype html>
+<html lang="en">
+	{% include "components/head.njk" %}
 
-<div>
-  <article>{{ content | safe }}</article>
-</div>
+  <body class="pb-32">
 
+    <div class="max-w-xs sm:max-w-lg lg:max-w-6xl m-auto">
 
-<iframe src="https://thecuriousinnovator.substack.com/embed" width="100%" height="319" frameborder="0" scrolling="no"></iframe>
+      {% include "components/navigation.njk" %}
+
+			<div class="mt-8">
+				{{ content | safe }}
+			</div>
+
+      {% include "components/subscribe-box.njk" %}
+
+		</div>
+
+  </body>
+
+</html>

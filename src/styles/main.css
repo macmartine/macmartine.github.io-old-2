@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 .nav-menu-items {
-  @apply hover:text-red-900;
   @apply py-2;
-  @apply hover:border-b;
-  @apply hover:border-sky-500;
+}
+
+.nav-menu-items:hover {
+  @apply text-primary;
+  @apply border-b;
+  @apply border-sky-500;
 }
 
 body {
@@ -16,17 +19,32 @@ body {
 	@apply leading-10;
 }
 
+.navigation {
+  margin-top: 8px;
+}
+
+#custom-substack-embed form {
+  width: 100%;
+  @apply max-w-xl !important;
+}
+
+.navigation a {
+  @apply text-slate-500;
+  @apply tracking-wider;
+  padding-top: 8px;
+}
+
 a {
-  @apply text-red-800;
+  @apply text-orange-700;
   @apply py-1;
   @apply border-sky-200;
-  @apply hover:text-red-900;
-  @apply hover:border-b;
-  @apply hover:border-sky-500;
+  @apply hover:text-primary;
+  /* @apply hover:border-b; */
+  /* @apply hover:border-sky-500; */
 }
 
 a:hover {
-  @apply text-red-800;
+  @apply text-orange-900;
 }
 
 p {
@@ -34,7 +52,7 @@ p {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 38px;
 	@apply py-8;
   @apply border-b;
   @apply border-gray-300;
@@ -45,7 +63,7 @@ h1 {
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 32px;
 	@apply font-semibold;
   @apply tracking-wide;
 	@apply my-8;
@@ -62,13 +80,34 @@ h4 {
 	@apply my-4;
 }
 
+ ol {
+   list-style: none;
+   counter-reset: item;
+ }
+
+ ol li {
+   counter-increment: item;
+   margin-bottom: 12px;
+ }
+
+ ol li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: lightblue;
+   border-radius: 100%;
+   color: white;
+   width: 1.8em;
+   text-align: center;
+   display: inline-block;
+ }
+
 ul li {
   list-style-type: "→";
-	@apply ml-4;
+	@apply ml-8;
 }
 
 blockquote {
-  border-left: 1px solid red;
+  border-left: 1px solid orange;
   @apply my-4;
   @apply pl-4;
   @apply text-xl;

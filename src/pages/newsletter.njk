@@ -7,19 +7,27 @@ permalink: /newsletter/
 tags:
 ---
 
-<h1>
-	Get The Curious Innovator sent directly to your inbox
-</h1>
+<div class="grid grid-cols-1 lg:grid-cols-3">
 
-<p class="my-8">
-  This newsletter aims to help you find balance and harmony in the interplay between time and money, contentment and achievement, now and then, and the present and dream.
-</p>
+  <div class="p-2 lg:p-8 lg:col-span-2">
 
-<div class="mb-12">
-	{% include "components/subscribe.njk" %}
-	<p class="pl-2">
-		<i><a href="https://thecuriousinnovator.substack.com/">Or read the archives</a></i>
-	</p>
+    <h2>The Curious Innovator</h2>
+    <p class="my-8">
+      This newsletter aims to find balance and harmony in the interplay between time and money, contentment and achievement, fulfillment and desire, present and future. 
+    </p>
+
+    <div class="mb-12">
+      {% include "components/subscribe.njk" %}
+      <p class="pl-2 text-lg">
+        <i><a href="https://thecuriousinnovator.substack.com/">Or read the archives</a></i>
+      </p>
+    </div>
+  </div>
+
+  <div class="p-8 m-auto hidden lg:block">
+    <img class="rounded-2xl" src="/img/newsletter-image.png" />
+  </div>
+
 </div>
 
 {% set quote = "Mac's content is always delivered with a rare combination of curiosity, insight and spirit!" %}
