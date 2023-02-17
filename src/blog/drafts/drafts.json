@@ -1,5 +1,6 @@
 {
   "tags": "draft",
+  "draft": "true",
   "layout": "layouts/post.njk",
   "permalink": "/drafts/{{ title | slugify  }}/"
 }

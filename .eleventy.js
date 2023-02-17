@@ -6,6 +6,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy("src/admin/config.yml");
 
+  eleventyConfig.on("eleventy.before", ({runMode}) => {
+		let text = "Excluding";
+		// Only show drafts in serve/watch modes
+		if(runMode === "serve" || runMode === "watch") {
+      console.log('serve')
+			process.env.BUILD_DRAFTS = true;
+			text = "Including";
+		}
+      console.log('serve end')
+  })
+
   // Watch CSS files for changes
   eleventyConfig.setBrowserSyncConfig({
 		files: './_site/assets/**/*.css'
@@ -32,3 +43,5 @@ module.exports = function(eleventyConfig) {
     dir: { input: 'src', output: '_site' }
   };
 };
+
+
