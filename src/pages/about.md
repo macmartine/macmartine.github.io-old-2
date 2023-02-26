@@ -37,3 +37,15 @@ And that's what The Curious Innovator newsletter, and the writings on this site,
 
 Thanks for joining me on this journey, and please introduce yourself by replying to a newsletter.
 
+
+<!--
+I have a disdain for organized institutions
+I don't have a problem with silence among people.
+I enjoy silence.
+I can rarely watch movies. My mind is always going a million miles an hour.
+I have a lot of energy.
+I am very focused on my immediate family.
+I'm a slow thinker
+
+-->
+

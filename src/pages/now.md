@@ -17,6 +17,18 @@ I read [Tiago Forte's](https://maggieappleton.com/garden-history) [Building a Se
 
 I've started a digital garden and considering how I'll incorporate it into [macmartine.com](https://www.macmartine.com), and [The Curious Innovator](/newsletter) newsletter. The newsletter may simply become my best/favorite Zettlekasten's from the previous week.
 
+Books read:
+* The War of Art - Steven Pressfield
+* Big Magic - Elizabeth Gilbert
+* Perennial Seller - Ryan Holiday
+* On Writing - Stephen King
+
+Places visited:
+
+* Sarajevo, Bosnia
+* Banja Luka, Bosia
+* Mostar, Bosnia
+* Laktasi, Bosnia
 
 ## January 2023
 
@@ -27,6 +39,67 @@ Also started the [Farnam Street](https://fs.blog) [Decisions by Design](https://
 We've been working on getting ready to apply for the Portugal Digital Nomad Visa. It's been more difficult than it was to get the Croatia one, partly because we're doing it from Croatia, and not the U.S. It makes things much harder. It's the simple things you wouldn't think about, like trying to send a check or money order the FBI, or sending a pre-paid return envelope. It's no-one's fault so much as incompatible systems. Europe doesn't have a notion of personal checks or money orders without having the destination account's routing number and account number on it. We don't have personal checks with us, and the FBI doesn't give out their bank account information for us to get a EU-style check for them. It's that kind of stuff times twenty. 
 
 Not to mention Portugal required opening a bank account before applying, which can only be done in person in Portugal. And they require a signed 12-month apartment lease prior to applying, which isn't easy to get from afar, sight-unseen, 8 months in advance.
+
+
+Books read:
+* Building a Second Brain - Tiago Forte
+
+## December 2022
+
+Placed visited:
+* Budapest, Hungary
+* Salzburg, Austria
+* Vienna, Austria
+* Graz, Austria
+
+## November 2022
+
+Places visited:
+* Malta
+* Venice, Italy
+* Ljubliana, Slovenia
+
+## October 2022
+
+Places visited:
+* Lake Bled, Slovenia
+* Split, Croatia
+* Sibenik, Croatia
+* Trogir, Croatia
+* Postojna, Croatia
+* Trieste, Italy
+* Rovinj, Croatia
+* Oprtalj, Croatia
+* Zavrsje, Croatia
+* Groznjan, Croatia
+* Motovun, Croatia
+
+## September 2022
+
+* Karlovac, Croatia
+* Plitvice Lakes National Park, Croatia
+* Rastoke, Croatia
+
+## August 2022
+
+Arrived in Zagreb, Croatia (to live there for a year)
+
+Places visited:
+* Ljubliana, Slovenia
+* Varazdin, Croatia
+
+
+## July 2022
+
+Places visited:
+* Paris, France
+* Aix en Provence, France
+* Marseille, France
+* Cassis, France
+* Mali Losinj, Croatia
+* Zadar, Crotia
+* Kornati Islands, Croatia
+* Rijeka, Croatia
 
 
 

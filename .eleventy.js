@@ -6,6 +6,16 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy("src/admin/config.yml");
 
+  eleventyConfig.addFilter('published', function(collection) {
+    const filtered = collection.filter(item => !item.data.draft)
+    return filtered;
+  });
+
+  eleventyConfig.addFilter('drafts', function(collection) {
+    const filtered = collection.filter(item => item.data.draft)
+    return filtered;
+  });
+
   eleventyConfig.on("eleventy.before", ({runMode}) => {
 		let text = "Excluding";
 		// Only show drafts in serve/watch modes
