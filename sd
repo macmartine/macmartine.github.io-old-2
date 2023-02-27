@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="The Curious Innovator: Insights for thinkers and doers">
+  <meta itemprop="description" content="For those seeking to understand and improve the human experience through personal growth, financial independence, and societal impact.">
+  <meta itemprop="image" content="https://macmartine.com/img/newsletter-image.png">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="https://macmartine.com/img/newsletter-image.png">
+  <meta name="twitter:site" content="@saasmakermac">
+  <meta name="twitter:title" content="The Curious Innovator: Insights for thinkers and doers">
+  <meta name="twitter:description" content="For those seeking to understand and improve the human experience through personal growth, financial independence, and societal impact.">
+  <meta name="twitter:creator" content="@saasmakermac">
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="https://macmartine.com/img/newsletter-image.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="The Curious Innovator: Insights for thinkers and doers" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://macmartine.com/" />
+  <meta property="og:image" content="https://macmartine.com/img/newsletter-image.png" />
+  <meta property="og:description" content="For those seeking to understand and improve the human experience through personal growth, financial independence, and societal impact." />
+  <meta property="og:site_name" content="The Curious Innovator" />
+  <meta property="article:published_time" content="" />
+  <meta property="article:modified_time" content="" />
+  <meta property="article:section" content="" />
+  <meta property="article:tag" content="" />
+
+	<link rel="stylesheet" type="text/css" href="/assets/main.css" />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G9LBG1FLJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-2G9LBG1FLJ');
+	</script>
+</head>
+
+
+  <body class="pb-32">
+
+    <div class="max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl m-auto">
+
+      <header class="text-xl tracking-wider">
+  <nav aria-label="Top">
+    <div class="flex w-full border-b border-indigo-500 py-6 lg:border-none">
+      <div class="flex w-full">
+
+        <div class="flex">
+          <a href="/" style="color: #04A5BB">
+						<svg height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+							 viewBox="0 0 504.125 504.125" xml:space="preserve">
+						<path style="fill:#3A7F0D;" d="M339.772,0c0,0,44.536,108.954-146.337,182.138C89.719,221.893,10.059,323.789,105.173,481.193
+							c7.877-70.357,41.653-225.485,186.888-260.884c0,0-135.176,50.546-147.117,279.347c69.459,9.752,232.361,16.305,280.726-125.062
+							C489.536,187.817,339.772,0,339.772,0z"/>
+						<path style="fill:#49A010;" d="M145.007,498.704c147.456-58.849,254.748-196.71,269.556-361.283C384.418,56.107,339.772,0,339.772,0
+							s44.536,108.954-146.337,182.138C89.719,221.893,10.059,323.789,105.173,481.193c7.877-70.357,41.653-225.485,186.888-260.884
+							C292.053,220.31,157.279,270.73,145.007,498.704z"/>
+						<circle style="fill:#3A7F0D;" cx="90.459" cy="171.985" r="13.785"/>
+						<g>
+							<circle style="fill:#49A010;" cx="133.782" cy="158.2" r="9.846"/>
+							<circle style="fill:#49A010;" cx="124.921" cy="64.662" r="24.615"/>
+							<circle style="fill:#49A010;" cx="200.736" cy="120.785" r="7.877"/>
+							<circle style="fill:#49A010;" cx="266.713" cy="76.477" r="22.646"/>
+						</g>
+						</svg>
+          </a>
+        </div>
+
+        <div class="navigation flex uppercase text-sm ml-10 hidden space-x-8 lg:block">
+          <!-- <a href="/" class="font-medium nav-menu-items">Reflections</a> -->
+          <a href="/newsletter" class="font-medium nav-menu-items">Newsletter</a>
+          <a href="/now" class="font-medium nav-menu-items">Now</a>
+          <!-- <a href="/tools" class="font-medium nav-menu-items">Tools</a> -->
+          <a href="/about" class="font-medium nav-menu-items">About</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navigation flex uppercase text-sm flex-wrap justify-center gap-x-6 py-4 lg:hidden">
+      <!-- <a href="/" class="font-medium nav-menu-items">Reflections</a> -->
+      <a href="/newsletter" class="font-medium nav-menu-items">Newsletter</a>
+      <a href="/now" class="font-medium text-primary nav-menu-items">Now</a>
+      <!-- <a href="/tools" class="font-medium text-primary nav-menu-items">Tools</a> -->
+      <a href="/about" class="font-medium text-primary nav-menu-items">About</a>
+    </div>
+
+  </nav>
+</header>
+
+
+
+			<div class="mt-0 lg:mt-8">
+				
+<div class="p-2 lg:p-8">
+
+  <p>Welcome! I'm Mac. I'm an entrepreneur, family slomad, multipotentialite, and slow thinker.</p>
+
+  <p>I call this place you've found yourself in my digital garden, or commonplace book.</p>
+
+  <p>It's the place where I explore ideas, and share what I learn, as I'm learning it, with a focus on the timeless. It's my attempt to shine a light in the direction of balance and harmony in the interplay between time and money, contentment and achievement, fulfillment and desire, [present and future]().
+All those little things that humans thrive on and struggle with daily - how we should live, how to get the most of out life, and how to maintain that child-like awe of this universe we find ourselves in.</p>
+
+  <p>Come back often, the door is always open. And please reach out and introduce yourself, I love meeting new interesting people:</p>
+  <p>Email: <a href='mailto:mac@macmartine.com'>mac@macmartine.com</a> / Twitter: <a href='https://twitter.com/saasmakermac' target='_blank'>@saasmakermac</a></p>
+
+</div>
+
+
+<div class="mt-8 border border-red-200 p-8">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+    <div class="p-2 lg:p-8 lg:col-span-1">
+      <div class="hidden lg:block">
+        <img class="m-auto w-40" src="/img/wild flowers.svg" />
+      </div>
+    </div>
+    <div class="p-2 lg:p-8 lg:col-span-2">
+      <p>
+        Sign up for my newsletter, <i>The Curious Innovator</i>, to get my lastest writings straight to your inbox.
+      </p>
+      
+<div class="w-full" id="custom-substack-embed"></div>
+
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "thecuriousinnovator.substack.com",
+    theme: "custom",
+    placeholder: "curious@domain.com",
+    colors: {
+      primary: "#db7965",
+      input: "#FFFFFF",
+      email: "#171717",
+      text: "#fff",
+    }
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!--
+
+<h2>Reflections</h2>
+
+<div>
+
+  
+    <h3 class="font-medium">
+      <a href="/the-best-publicity-is-free/">The best publicity is &quot;free&quot;</a>
+    </h3>
+  
+    <h3 class="font-medium">
+      <a href="/the-power-of-raising-prices-by-delivering-value-to-your-customers/">The Power of Raising Prices by Delivering Value to Your Customers</a>
+    </h3>
+  
+    <h3 class="font-medium">
+      <a href="/beyond-the-conventional-notions-of-time/">Beyond the Conventional Notions of Time</a>
+    </h3>
+  
+
+</div>
+
+-->
+
+			</div>
+
+		</div>
+
+  </body>
+
+</html>
