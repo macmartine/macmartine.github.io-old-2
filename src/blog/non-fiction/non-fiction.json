@@ -1,5 +1,5 @@
 {
   "tags": ["nonfiction"],
   "layout": "layouts/post.njk",
-  "permalink": "/journal/{{ title | slugify  }}/"
+  "permalink": "/{{ title | slugify  }}/"
 }

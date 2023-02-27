@@ -12,25 +12,35 @@ const markdownIt = require("markdown-it");
 
 function getMd(link) {
 
+  console.log('link -> ', link)
+
   if(link.includes('http')) { return link }
   if(link.includes('kindle')) { return link }
   if(link.includes('img')) { return link }
   if(link.includes('newsletter')) { return link }
   if(link.includes('mailto')) { return link }
 
-  console.log('link -> ', link)
-
-  var f = fs.readFileSync('/home/macmartine/src/macmartine.com/' + link, 'utf8')
+  // var f = fs.readFileSync('/home/macmartine/src/macmartine.com/' + link, 'utf8')
   // var f = fs.readFileSync('./src/macmartine.com/' + link, 'utf8')
+  
+  // var f = fs.readFileSync(path.resolve(__dirname, './src/macmartine.com/' + link));
+  console.log('dirname', __dirname)
+  console.log('here 1', path.resolve(__dirname, './' + link))
+  var f = fs.readFileSync(path.resolve(__dirname, './' + link), 'utf8');
+  console.log('here', path.resolve(__dirname, './' + link))
+
   var content = fm(f)
+  console.log('1')
   // var slug = "/atoms/" + slugify(content.attributes.title)
 
   var slug = ''
+  console.log('2')
   if( content.attributes.permalink ) {
     slug = "/" + slugify(content.attributes.permalink)
   } else {
-    slug = "/posts/" + slugify(content.attributes.title)
+    slug = "/" + slugify(content.attributes.title)
   }
+  console.log('3')
 
   console.log('title: ', slug)
 
@@ -39,6 +49,7 @@ function getMd(link) {
 
 var fs = require('fs')
   , fm = require('front-matter')
+var path = require('path')
  
 module.exports = function(eleventyConfig) {
 

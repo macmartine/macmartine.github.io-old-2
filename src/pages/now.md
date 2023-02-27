@@ -6,7 +6,7 @@ permalink: /now/
 ---
 
 # Now
-This /now page is inspired by [Derek Sivers](https://nownownow.com/about) - the place where I record the overarching themes of what I'm thinking about in a given month.
+*This /now page is inspired by [Derek Sivers](https://nownownow.com/about) - it's the place where I record the overarching themes of what I'm thinking about in a given month, as well as books I read and places I visited.*
 
 ## February 2023
 
