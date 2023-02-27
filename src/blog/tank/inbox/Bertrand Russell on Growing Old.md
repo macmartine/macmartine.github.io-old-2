@@ -1,3 +1,0 @@
-
-
-"Psychologically there are two dangers to be guarded against in old age. One of these is undue absorption in the past. It does not do to live in memories, in regrets for the good old days, or in sadness about friends who are dead. One’s thoughts must be directed to the future, and to things about which there is something to be done. This is not always easy; one’s own past is a gradually increasing weight. It is easy to think to oneself that one’s emotions used to be more vivid than they are, and one’s mind more keen. If this is true it should be forgotten, and if it is forgotten it will probably not be true.

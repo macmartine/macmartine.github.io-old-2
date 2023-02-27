@@ -1,6 +1,17 @@
 
-<div class='mt-8 border border-red-200 pb-16 px-8'>
-  <h2>Enjoy this?</h2>
-  <p class='mb-4'>Subscribe here to get more content like this directly in your inbox each week.</p>
-  {% include "./subscribe.njk" %}
+<div class="mt-8 border border-red-200 p-8">
+  <div class="grid grid-cols-1 lg:grid-cols-3">
+    <div class="p-2 lg:p-8 lg:col-span-1">
+      <div class="hidden lg:block">
+        <img class="m-auto w-40" src="/img/wild flowers.svg" />
+      </div>
+    </div>
+    <div class="p-2 lg:p-8 lg:col-span-2">
+      <p>
+        Sign up for my newsletter, <i>The Curious Innovator</i>, to get my lastest writings straight to your inbox.
+      </p>
+      {% include "./subscribe.njk" %}
+    </div>
+  </div>
 </div>
+

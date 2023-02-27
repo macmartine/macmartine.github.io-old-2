@@ -6,6 +6,7 @@ permalink: /now/
 ---
 
 # Now
+This /now page is inspired by [Derek Sivers](https://nownownow.com/about) - the place where I record the overarching themes of what I'm thinking about in a given month.
 
 ## February 2023
 
@@ -18,10 +19,10 @@ I read [Tiago Forte's](https://maggieappleton.com/garden-history) [Building a Se
 I've started a digital garden and considering how I'll incorporate it into [macmartine.com](https://www.macmartine.com), and [The Curious Innovator](/newsletter) newsletter. The newsletter may simply become my best/favorite Zettlekasten's from the previous week.
 
 Books read:
-* The War of Art - Steven Pressfield
-* Big Magic - Elizabeth Gilbert
-* Perennial Seller - Ryan Holiday
-* On Writing - Stephen King
+* [The War of Art](https://amzn.to/3EIv5CG) - Steven Pressfield
+* [Big Magic](https://amzn.to/3Y61eLg) - Elizabeth Gilbert
+* [Perennial Seller](https://amzn.to/3IXklmr) - Ryan Holiday
+* [On Writing](https://amzn.to/3EJDHsz) - Stephen King
 
 Places visited:
 
@@ -42,7 +43,7 @@ Not to mention Portugal required opening a bank account before applying, which c
 
 
 Books read:
-* Building a Second Brain - Tiago Forte
+* [Building a Second Brain](https://amzn.to/3EFJqQm) - Tiago Forte
 
 ## December 2022
 
@@ -100,8 +101,6 @@ Places visited:
 * Zadar, Crotia
 * Kornati Islands, Croatia
 * Rijeka, Croatia
-
-
 
 
 
