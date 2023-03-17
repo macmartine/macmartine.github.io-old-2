@@ -133,7 +133,7 @@ All those little things that humans thrive on and struggle with daily - how we s
 
 <script>
   window.CustomSubstackWidget = {
-    substackUrl: "thecuriousinnovator.substack.com",
+    substackUrl: "thesaasbootstrapper.substack.com",
     theme: "custom",
     placeholder: "curious@domain.com",
     colors: {
