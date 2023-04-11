@@ -1,5 +1,5 @@
 {
-  "tags": "atom",
+  "tags": "aware",
   "layout": "layouts/post.njk",
   "permalink": "/{{ title | slugify  }}/"
 }
